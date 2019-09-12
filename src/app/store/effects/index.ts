@@ -1,10 +1,7 @@
 import { RouterEffects } from './router.effects';
-import { UiEffects } from './ui.effects';
 
-export const Effects: any[] = [
-  RouterEffects,
-  UiEffects
+export const effects: any[] = [
+  RouterEffects
 ];
 
 export * from './router.effects';
-export * from './ui.effects';
