@@ -22,6 +22,7 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
+            "aot": true,
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -137,3 +138,10 @@
   },
   "defaultProject": "testrouter"
 }
+
+/* npm i @angular/common@next @angular/compiler@next @angular/forms@next @angular/platform-browser@next @angular/platform-browser-dynamic@next @angular/platform-server@next @angular/router@next
+npm i rxjs core-js zone.js
+
+
+# devDependencies
+npm i @angular-devkit/build-angular@next @angular/compiler-cli@next @angular/cli@next @angular/language-service@next -D */
