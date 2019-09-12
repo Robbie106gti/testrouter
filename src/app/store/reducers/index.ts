@@ -22,6 +22,8 @@ export const reducers: ActionReducerMap<State> = {
 
 export const metaReducers: MetaReducer<State>[] = !environment.production ? [] : [];
 
+export const getRouterFeature = createFeatureSelector<RouterState>('routerState');
+
 @Injectable()
 export class CustomSerializer implements RouterStateSerializer<RouterState> {
   serialize(routerState: RouterStateSnapshot): RouterState {
